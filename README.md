@@ -41,7 +41,7 @@
 ## Document Upload and Permissions
 
 3. **Admin Can Upload Docs for All Users and Assign Access**
-   - Endpoint: `POST localhost:3000/api/document/create/id`
+   - Endpoint: `POST localhost:3000/api/document/create`
    - Request Body:
      ```json
      {
@@ -51,4 +51,20 @@
        "allowedUsers": ["user@example.com", "anotheruser@example.com"],
        "permission": "private"
      }
+
+
+     ## 6. View Uploaded Documents
+
+Endpoint: `GET /api/document/:id`
+
+Other roles can view the uploaded documents by the admin if they are invited.
+
+---
+
+## 4. Upload Documents
+
+Endpoint: `POST /api/upload/create/:id`
+
+Users can upload documents with private and public permissions as assigned by the admin through id.
+
      ```
