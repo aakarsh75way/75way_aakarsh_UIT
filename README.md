@@ -41,7 +41,7 @@
 ## Document Upload and Permissions
 
 3. **Admin Can Upload Docs for All Users and Assign Access**
-   - Endpoint: `POST localhost:3000/api/apps/create/:id`
+   - Endpoint: `POST localhost:3000/api/document/create/id`
    - Request Body:
      ```json
      {
