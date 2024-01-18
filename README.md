@@ -37,6 +37,7 @@
 
    - User Accesses API Only with API Key
      - Endpoint: `GET localhost:3000/api/apps/:id`
+     - Response-In response User will be receiving a apiKey- 
 
 ## Document Upload and Permissions
 
