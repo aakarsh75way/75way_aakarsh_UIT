@@ -68,4 +68,3 @@ Endpoint: `POST /api/upload/create/:id`
 
 Users can upload documents with private and public permissions as assigned by the admin through id.
 
-     ```
