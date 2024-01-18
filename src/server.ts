@@ -7,10 +7,6 @@ import authRoutes from './routes/authRoutes'
 import appRoutes from './routes/appRoutes'
 import documentRoutes from './routes/documentRoutes'
 import uploadDocsRoute from './routes/uploadDocsRoute'
-
-
-
-
 import cookieParser from 'cookie-parser';
 
 

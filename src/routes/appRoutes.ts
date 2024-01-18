@@ -11,7 +11,7 @@ const router = express.Router();
 
 //appRoutes
 router.post("/create",authMiddleWare,appController)
-router.get("/create/:id",authMiddleWare,userController)
+router.get("/:id",authMiddleWare,userController)
 
 
 
