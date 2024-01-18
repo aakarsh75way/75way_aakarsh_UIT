@@ -36,7 +36,7 @@
      ```
 
    - User Accesses API Only with API Key
-     - Endpoint: `GET localhost:3000/api/apps/create/:id`
+     - Endpoint: `GET localhost:3000/api/apps/:id`
 
 ## Document Upload and Permissions
 
