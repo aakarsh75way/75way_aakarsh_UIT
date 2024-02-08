@@ -34,5 +34,5 @@ app.use("/api/upload",uploadDocsRoute)
 // Start the server
 app.listen(port, async () => {
    await checkDatabaseConnection()
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server is running on port xyz ${port}`);
 });
